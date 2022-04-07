@@ -169,7 +169,7 @@
 /* ======================== Skills Section Start =========================*/
 
 #skills-section {
-    padding: 100px 0;
+    padding: 165px 0;
     background-color: #f7fbfa;
     background-image: url('../img/skills-bg.png');
     background-repeat: no-repeat;
@@ -220,3 +220,44 @@ progress[value] {
     -webkit-appearance: none;
     appearance: none;
 }
+
+
+/* ======================== Skills Section end =========================*/
+/* ======================== Counter Area start =========================*/
+
+#counter-area {
+    padding: 100px 0;
+    background-color: #44cdc8;
+}
+
+#counter-area .counter-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#counter-area .counter-contents .counter-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+#counter-area .counter-contents .counter-item i {
+    font-size: 3em;
+}
+
+#counter-area .counter-contents .counter-item .counts strong {
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#counter-area .counter-contents .counter-item .counts .count {
+    margin-bottom: 5px;
+}
+
+
+/* ======================== Counter Area end =========================*/
